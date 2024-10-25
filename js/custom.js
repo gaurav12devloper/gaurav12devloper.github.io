@@ -67,8 +67,8 @@ function circle() {
 
 function progressbar(x) {
 
-let width=[80,80,75,75,75,70,65,65,50];
-let lan=['HTML5','CSS3','Boostrap','PHP','JavaScript','JSP','NodeJS','ExpressJS','ASP.NET'];
+let width=[85,80,75,75,80,70,80];
+let lan=['HTML5','CSS3','Boostrap','TailWind CSS','React','NextJS','TypeScript','Javascript'];
     if (x==1){
         $("#web-skill").css({'color':'red'}); $("#desktop-skill").css({'color':'black'}); $("#other-skill").css({'color':'black'});
         $('.progress-b').remove();
@@ -86,8 +86,8 @@ let lan=['HTML5','CSS3','Boostrap','PHP','JavaScript','JSP','NodeJS','ExpressJS'
         $("#desktop-skill").css({'color':'red'}); $("#web-skill").css({'color':'black'}); $("#other-skill").css({'color':'black'});
         $('.progress-b').remove();
         $divbox2=[];
-        let width=[80,75,75,70,60];
-        let lan=['Python','C','Java','C++','C#'];
+        let width=[80,80,65,85,80];
+        let lan=['Node js','PHP','JSP','MySql','MongoDB'];
         for(i=0;i<width.length;i++){
             $divbox2[i]=$(`<div class="progress-b my-3" style="height: 35px;">
             <div class="lan-text" style="width: 12%">${lan[i]}</div>
@@ -101,8 +101,8 @@ let lan=['HTML5','CSS3','Boostrap','PHP','JavaScript','JSP','NodeJS','ExpressJS'
         $("#other-skill").css({'color':'red'}); $("#web-skill").css({'color':'black'}); $("#desktop-skill").css({'color':'black'});
         $('.progress-b').remove();
         $divbox2=[];
-        let width=[80,75,75,70,65,65,60];
-        let lan=['MySQL','MongoDB','PLSQL','Canva','UNIX','R','Android'];
+        let width=[90,75,75,70,65,70];
+        let lan=['C++','Python','Java','Canva','Figma','Dockers'];
         for(i=0;i<width.length;i++){
             $divbox2[i]=$(`<div class="progress-b my-3" style="height: 35px;">
             <div class="lan-text">${lan[i]}</div>
